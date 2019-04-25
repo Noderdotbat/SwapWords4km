@@ -1,0 +1,17 @@
+<MainScreen>:
+    ttc: ttc
+    ct: ct
+    GridLayout:
+        size: root.width, root.height
+        cols: 1
+        TextInput:
+            text: ""
+            id: ttc
+            font_name: "Arial"
+        Button:
+            text: "CONVERT"
+            on_press: root.btn()
+        TextInput:
+            text: "CONVERTED TEXT"
+            id: ct
+            font_name: "Arial"
