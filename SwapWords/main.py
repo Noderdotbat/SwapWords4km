@@ -12,6 +12,7 @@ import getData
 
 LabelBase.register(name="Arial", fn_regular="Arial.ttf")
 Config.set('input', 'mouse', 'mouse,multitouch_on_demand')
+Config.set("kivy", "window_icon", "Logo.png")
 
 class MainScreen(Widget):
     ttc = ObjectProperty(None)
